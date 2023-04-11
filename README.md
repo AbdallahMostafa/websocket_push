@@ -1,1 +1,1 @@
-# A NodeJS App to play with webSockets and push messages the idea is to make a few clinets connect to a server and make them communicate togather by sending messages
+# A NodeJS App to play with webSockets and push messages; the idea is to make a few clients connect to a server and make them communicate togather by sending messages
