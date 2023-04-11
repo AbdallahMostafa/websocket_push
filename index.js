@@ -15,6 +15,8 @@ websocket.on("request", request => {
     connection.on("message", message => {
         // someone just sent a message, tell everybody
         // using remotePort as an unique ID
+        // TODO
+        // Make sure to pop the disconnected clients
         connections.forEach(
             con => con.send(
                 `User${connection.socket.remotePort} says: ${message.utf8Data}`
